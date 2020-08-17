@@ -66,6 +66,8 @@ RUN apt-get update && \
         tini \
         unzip \
         wget \
+	openssh-client \
+	expect \
         zip && \
     chmod u+s /usr/sbin/arping && \
     ln -s -f /bin/true /usr/bin/chfn && \
