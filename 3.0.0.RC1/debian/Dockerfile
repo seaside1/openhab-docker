@@ -56,12 +56,14 @@ RUN apt-get update && \
         arping \
         ca-certificates \
         curl \
+        expect \
         fontconfig \
         gosu \
         libcap2-bin \
         locales \
         locales-all \
         netbase \
+        openssh-client \
         procps \
         tini \
         unzip \
